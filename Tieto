@@ -1,0 +1,23 @@
+// Ongelmat mitä pitää ratkoa
+//     1) Miten  laitteen antamaa tietoa (asento, painalluksen pituus)
+//        voidaan käyttää koodissa
+//     2) Päätetään painalluksen pituus (esim <0.5s =lyhyt), 
+//        miten tämä määritetään koodiin ja onko edes mahdollista?
+//     3) Mikä on freetos ja miten sitä pitää ja kannattaa käyttää tehtävässä 
+
+// Ideoita Koodinrakenteeseen:
+//      - Koodissa pitää jollain tavalla määrittää arvot eri
+//        laitteen antamille arvoille esim.(pysty=up)
+//        (vaaka=down) (lyhyt=short)(pitkä=long) ja saada se printtaamaan
+//        oikea merkki oikealla yhdistelmällä.
+//             -Tämä tehdään luultavasti if – else .rakenteella,
+//              tosin pitää kysyä tekoälyltä miten/onko parempaa  
+//       - Koodirakenne suunnitelma (täytetään kun tiedetään enemmän)
+//         #  include tarvittavat tiedostot (luultavasti myös freetos liittyvät) 
+//         #  Määritetään asentojen ja napin painallusten arvot
+//               - Tässä pitää luultavasti määrittää napin painalluksen pituus
+//         #  Määritetään teksti (merkki), joka tulee mistäkin yhdistelmästä 
+//         #  Määritetään funktio joka printtaa yhdistelmän merkin lauseeseen 
+//               - Koodi pitää luultavasti toteuttaa niin, että jokainen merkki lisätään
+//                 olemassa olevaan tekstiin. (mikäli tehtävässä piti määrittää
+//                 koodin pysäytys tietyllä tavalla, tehdään sekin)
